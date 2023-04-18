@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Desc, 2022, 10:57:07 AM
+    Author     : semic
+*/
+.hidden {
+    display: none !important;
+}
+.checkout-h{
+    font-style: normal;
+    font-size: 22px;
+    background-color: #6d2d00;
+    padding: 8px;
+    text-align: center;
+    border-radius: 7px;
+    color: #fff;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+label{
+    font-size: 14px;
+}
+.radio label, .checkbox label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+.form-item-samebilling label {
+    font-weight: bold !important;
+    font-size: inherit;
+}
+.radio input[type="radio"], 
+.radio-inline input[type="radio"], 
+.checkbox input[type="checkbox"], 
+.checkbox-inline input[type="checkbox"] {
+    position: absolute;
+    margin-left: -20px;
+}
+
+.dnone {
+    display: none;
+}
+#bill_diffrent{
+    padding-top: 7px;
+}
+
+.razorpay-payment-button.btn-4{
+    margin-top: 2px;
+}
+
+.errostatus {
+    background: red;
+    color: #fff;
+    border-radius: 3px;
+    padding: 1px 3px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.preview-cart{
+    color: #212529;
+    font-size: 16px;
+    font-weight: initial;
+}
+
+.checkout-review p{
+    line-height: 19px;
+}
+/*already ship address*/
+.form-item-ship-address .radio label{
+/*    margin-bottom: 15px;
+    line-height: 18px;
+    font-size: 15px;*/
+    margin-bottom: 3px;
+    line-height: 18px;
+    font-size: 15px;
+    padding-left: 34px;
+}
+
+.form-item-ship-address.form-type-radio.radio{
+    border: 1px solid #6d2d00;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+.allready_ship_address.form-radio{
+    width: 30px;
+    height: 30px;
+}
+
+.form-item-ship-address .radio input[type="radio"]{
+    margin-left: -37px;
+}
+
+.form-check.payment-option{
+    padding-bottom: 20px;
+}
+.form-check-input.payment-radio{
+    width: 20px;
+    height: 30px;
+    margin-top: -5px;
+}
+.form-check-label.payment-label{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.site-btn {
+    font-size: 14px;
+    color: #ffffff;
+    background: #ca1515;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    width: 100%;
+}

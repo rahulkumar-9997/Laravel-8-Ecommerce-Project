@@ -1,0 +1,911 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Jun, 2022, 12:50:37 PM
+    Author     : semic
+*/
+.message-show{
+      padding: 22px;
+}
+.logo-position{
+    z-index: 99999;
+    position: absolute;
+}
+.top-nav2 .top-address-ditels {
+  float: right;
+}
+/*.menu-last-word:before{
+    content: "\a";
+    white-space: pre;
+    line-height: 0;
+}*/
+.xeina-top-bar{
+    background-color: #6d2d00;
+}
+.menu-last-word-first{
+    font-size: 13px;
+    /*text-align: end;*/
+    /*margin-top: -6px;*/
+    margin-bottom: -7px;
+}
+.menu-last-word-last{
+   font-size: 13px;
+    text-align: end;
+    margin-top: -6px;
+}
+.ps-product--standard .ps-product__content {
+  padding: 0 20px 20px;
+}
+.ps-product__title {
+    display: block;
+    font-size: 16px;
+      line-height: 28px;
+    margin-bottom: 0px;
+    min-height: 35px;
+    font-weight: 700;
+    color: #000;
+}
+
+.ps-product__meta {
+  margin-bottom: 8px;
+}
+.ps-product__price {
+  color: #000;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.ps-product__rating {
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+}
+.br-theme-fontawesome-stars .br-widget {
+  height: 28px;
+  white-space: nowrap;
+}
+.ps-product__rating .br-widget a {
+  font-size: 14px;
+}
+a.btn-style-a {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 25px;
+  z-index: 1;
+}
+a.btn-style-a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #f30a46;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a.btn-style-a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #f30a46;
+  -moz-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+a.btn-style-a:hover {
+  color: #f30a46 !important;
+  text-decoration: none;
+}
+a.btn-style-a:hover::before {
+  opacity: 0;
+  -moz-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+}
+a.btn-style-a:hover::after {
+  opacity: 1;
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+/*XEINA DRUGS ABOUT US CSS START*/
+
+
+.left.wt-small-separator-outer {
+  text-align: left;
+}
+.section-head {
+  position: relative;
+  z-index: 1;
+}
+.site-text-primary{
+    color: #1c63b8;
+}
+.wt-small-separator div {
+  display: inline-block;
+}
+.section-head h2::after, .section-head h3::after {
+  position: absolute;
+  content: attr(data-title);
+  color: #00173c;
+  opacity: 0.1;
+  font-family: 'Teko', sans-serif;
+  font-size: 120px;
+  line-height: 100px;
+  bottom: -30px;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/*.xeina-drugs-logo{
+  margin-top: -50px;  
+}*/
+.product-image{
+    width: 50%;
+}
+.product-image-two{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    border: 1px green solid;
+    width: 17%;
+}
+
+
+
+
+
+
+.about__area .abs__info {
+  padding-left: 130px;
+  position: relative;
+  z-index: 1;
+}
+.about__area .abs__info-first {
+  padding-left: 130px;
+  position: relative;
+  z-index: 1;
+}
+.w-img img {
+  width: 100%;
+}
+.xeina-image-border{
+    border: 2px solid red;
+    padding: 2px;
+}
+.about__area .abs__image-2 {
+    /*position: absolute;
+      top: -50px;
+      left: 0;
+      z-index: 1;*/
+    position: absolute;
+    bottom: -32px;
+    right: -155px;
+    z-index: 1;
+}
+.about__area .abs__image-2 img {
+    width: 160px;
+    height: 212px;
+    /*width: 50%;*/
+}
+.about__area .abs__image-3 {
+  position: absolute;
+  bottom: -15px;
+  left: 12%;
+  z-index: -1;
+}
+.about__area .abs__image-3 img {
+  width: 100px;
+  height: 100px;
+}
+/*BREADCRUM START*/
+.breadcrumb {
+  background-color: transparent;
+  border-radius: 0;
+  color: inherit;
+  font-family: Roboto Condensed;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .1em;
+  line-height: 32px;
+  margin: 0;
+    margin-bottom: 0px;
+  padding: 0;
+  text-transform: uppercase;
+}
+.breadcrumb > li {
+  display: inline-block;
+  float: none;
+  padding: 0;
+}
+.page_title .breadcrumb {
+  line-height: 1.6;
+}
+.text-center .breadcrumb {
+  justify-content: center;
+}
+ol:last-child{
+  margin-bottom: 0;
+}
+.breadcrumb > li a:not(.btn) {
+  color: #fff;
+}
+.breadcrumb > .active {
+  color: inherit;
+  color: #f30a46;
+  opacity: .9;
+}
+breadcrumb-item + .breadcrumb-item {
+  padding-left: .5rem;
+}
+.page-title.text-center h1{
+    font-size: 45px;
+    line-height: 45px;
+}
+/*BREADCRUM END*/
+/*Product details start*/
+
+.xtreme-pro-color{
+    color: #f05d20;
+}
+.product_title, .contact-us-title{
+    font-style: normal;
+}
+.xeina-slide-image-div{
+    width: 110px;
+    height: 145px;
+}
+.xeina-slide-content-div{
+    width: 30%;
+}
+.class-single-right-like-item1 .xtreme-pro-image{
+    width: 97%;
+}
+.product-details .h4-slide{
+    text-transform: uppercase;
+    font-size: 46px;
+    line-height: 50px;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+}
+.great-text{
+    color: #6d2d00;
+}
+.pricing-item.tast-great{
+    /*border-radius: 50px 50px 56px 0px;*/
+     /* Broder Radius */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 30px;
+    /* for Mozila version less than 3.6  */
+    -moz-border-radius-topleft: 30px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 30px;
+    box-shadow: 0px 1px 1px 7px rgb(237, 220, 127);
+    background-color: #000;
+    /*box-shadow: 8px 8px 1px 1px rgb(237, 220, 127);*/
+}
+.pricing-item-left-h3.h3-left, .class-single-left h3, .font-family-xtreme{
+    font-style: normal;
+}
+.tast-great .pricing-item-left, .pricing-item-right.mixes-right{
+    width: 50%;
+}
+ .pricing-item-right.mixes-right ul li{
+    padding-bottom: 0px;
+}
+ .pricing-item-right.mixes-right{
+    margin: 18px 30px 24px;
+}
+.pricing-item-left.tast-great-left ul li {
+  padding: 19px 27px;
+}
+th {
+    border-width: 0 1px 1px 0;
+    font-weight: 700;
+}
+.product-details-div{
+    background: #ffcd71;
+    padding: 15px 20px 30px 20px;
+    margin-top: 0 !important;
+}
+ul.shop-single-tab.product-details-tab li{
+    background: none;
+    /*color: #001e3c;*/
+    display: inline-block;
+    padding: 20px 15px;
+    cursor: pointer;
+    font-size: 33px;
+    font-family: "Roboto Condensed";
+    font-weight: 900;
+}
+.product-details-h4{
+    padding: 5px 0 5px;
+}
+.trainers-information.product-usage-level ul li{
+    padding-top: 13px;
+    color: #ffffff;
+    line-height: 24px;
+}
+.trainers-information.product-usage-level ul li span{
+    color: #ffffff;
+}
+.section-title.intruction h2 {
+  text-transform: uppercase;
+  line-height: 40px;
+  margin-top: -15px;
+  padding-bottom: 21px;
+  padding-bottom: 7px;
+  font-size: 25px;
+  color: #001e3c;
+  font-weight: 700;
+}
+.fitner-item h3{
+    font-size: 22px;
+}
+
+.card-2 {
+  border-top: 7px solid #f30a46;
+}
+.bg-white {
+  background-color: white;
+}
+.shadow {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.085),0 1px 8px rgba(0,0,0,0.1);
+}
+.padding-md {
+  padding: calc(1.09 * 1em);
+}
+.card-2.shadow{
+    height: 100%;
+}
+.margin-y-sm {
+  margin-top: calc(0.10 * 1em);
+  margin-bottom: calc(0.10 * 1em);
+}
+.text-md {
+  font-size: calc(calc(calc((1em / 1.2) / 1.2) * 1.2) * 1.2 * 1.2);
+  font-style: normal;
+}
+.color-primary {
+  color: #000;
+}
+.shop-single-tab-content .tab-content3 .margin-y-sm{
+  padding: 0px 0 0px;
+}
+.buy-now-with{
+    width: 100%;
+}
+.buy-now-padding{
+     padding: 33px;
+     text-decoration: none;
+}
+.buy-now-div a:hover{
+    text-decoration: none;
+}
+/*.xtreme-pro-product-submit{
+    width: 100%;
+}*/
+/*Product details end*/
+#xtreme-pro-product-enquiry .xterem-pro-error::placeholder {
+    color: red;
+}
+#xtreme-pro-product-enquiry .xterem-pro-error {
+    border-color: red;
+    box-shadow: inset 0 1px 1px rgba(67, 214, 238, 0.08), 0 0 6px #f8333000;
+}
+.rs-services-style1 .services-item-2 {
+    padding: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(175, 175, 175, 0.23);
+}
+.rs-services-style1 .services-desc {
+  text-align: center;
+  margin-top: 6px;
+}
+.rs-services-style1 .services-desc .services-title {
+  color: #212529;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.rs-services-style1 .services-desc p {
+  color: #cccccc;
+  margin-bottom: 0;
+}
+.rs-services-style1 .services-item-2:hover {
+    background-color: #f30a46;
+   border-top: 1px solid black;
+}
+.rs-services-style1 .services-item-2:hover .services-desc .services-title{
+  color: #fff;
+}
+.rs-services-style1 .services-item-2:hover .services-icon {
+  background-color: #f30a46;
+}
+
+/*XEINA DRUGS ABOUT US CSS END*/
+.color-it-white{
+    color: #fff;
+}
+.product .product-title {
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.product .product-title h4 {
+  color: #444444f5;
+  font-size: 18px;
+}
+.product .product-title h4 {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  -ms-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  line-height: 1.5em;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+  color: #27272f;
+}
+strong {
+  font-weight: 700;
+}
+.price{
+    font-weight: 700;
+    color: #f30a46;
+    font-family: Poppins;
+    font-size: 18px;
+}
+.form-select {
+  display: block;
+  width: 100%;
+  padding: .375rem 2.25rem .375rem .75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background: #f8f8f8;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right .75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.form-select {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #555555;
+  font-family: "Roboto Condensed";
+  padding: 0 21px;
+  border-radius: 13px;
+    height: 35px;
+}
+#xtremeproproductmodal .modal-dialog, #xtremeenduranceproductmodal .modal-dialog{
+    max-width: 700px;
+}
+.xtreme-pro-product-enquiry{
+    background: #2e3094;
+    padding: 41px;
+}
+.xtreme-pro-product-enquiry-2{
+    background: #361600;
+    padding: 41px;
+}
+.xtreme-pro-product-img{
+    width: 81%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#xtremeproproductmodal .modal-body, #xtremeenduranceproductmodal .modal-body{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+#xtremeproproductmodal .modal-content, #xtremeenduranceproductmodal .modal-content{
+    border-radius: 13px;
+}
+#xtremeproproductmodal .modal-header .close, #xtremeenduranceproductmodal .modal-header .close{
+    padding: 0rem 0rem;
+    margin: 0rem 0rem 0rem;
+}
+#xtremeproproductmodal .modal-title, #xtremeenduranceproductmodal .modal-title{
+    margin: 0 auto;
+}
+
+.cd-headline.clip .cd-words-wrapper1 {
+  overflow: hidden;
+  vertical-align: top;
+  color: #f30a46;
+}
+.xtreme-modal-title{
+    color: #fff;
+    padding-bottom: 11px;
+    font-style: normal;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 28px;
+}
+.modal-price{
+    line-height: 1.2;
+    color: #2e3094;
+    font-size: 18px;
+}
+.modal-price-2{
+    line-height: 1.2;
+    color: #361600;
+    font-size: 18px;
+}
+.xtreme-pt-55{
+    padding-top: 38px;
+}
+.xtreme-pt-2{
+    padding-top: 33px;
+}
+.btn-7.xtreme-endurance-product-submit{
+    display: inline-block;
+    padding: 20px 50px;
+    padding: 6px 13px;
+    font-size: 15px;
+    color: #2e3094;
+    background-color: #fff;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    border-radius: 13px;
+    text-transform: uppercase;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn-7.xtreme-pro-product-submit{
+    display: inline-block;
+    padding: 20px 50px;
+    padding: 6px 13px;
+    font-size: 15px;
+    color: #361600;
+    background-color: #fff;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    border-radius: 13px;
+    text-transform: uppercase;
+    transition: .5s;
+    cursor: pointer;
+}
+.xtreme-right{
+    text-align: right;
+}
+#xtremeenduranceproductmodal .close{
+    font-size: 36px;
+}
+#xtremeenduranceproductmodal button.close{
+    padding: 5px;
+}
+#xtremeproproductmodal .close{
+    font-size: 36px;
+}
+#xtremeproproductmodal button.close{
+    padding: 5px;
+}
+.contact-box.xtreme-pro-contact textarea{
+    font-size: 14px;
+    line-height: 25px;
+    color: #555555;
+    font-family: "Roboto";
+    font-weight: 400;
+    width: 100%;
+    height: 80px;
+    padding: 8px 25px;
+    background: #f8f8f8;
+    border-radius: 0px;
+    border: 1px solid #d2d2d2;
+}
+.contact-box.xtreme-pro-contact input, select{
+    height: 45px;
+    border-radius: 0px;
+}
+/*#footer-area .col-lg-3,{
+    
+}*/
+@media only screen and (max-width:480px)
+{
+    .about__area .abs__info{
+	padding-left: 0px;
+    }
+    .xeina-image-border{
+	border: none;
+    }
+    .w-img img {
+	width: 50%;
+    }
+    .about__area .abs__image-2{
+	position: absolute;
+	bottom: 0px;
+	right: 14px;
+    }
+    .about__area .abs__image-2 img {
+	width: 137px;
+	height: 179px;
+    }
+    .logo-position {
+	/*z-index: unset;*/
+	z-index: 1;
+	position: absolute;
+    }
+    .top-nav2 #cssmenu.sticky .logo {
+/*	top: 50%;
+	transform: translateY(-16%);*/
+	top: 50%;
+	transform: translateY(-9%);
+    }
+    .top-nav2 #cssmenu.sticky .logo img {
+	/*width: 52%;*/
+	width: 39%;
+    }
+    .mt-100{
+	margin-top: 0px !important;
+    }
+    .menu-last-word-last {
+	text-align: inherit;
+    }
+    .page-title.text-center h1 {
+	font-size: 32px;
+	line-height: 40px;
+    }
+    .product-details .h4-slide{
+	font-size: 38px;
+	line-height: 40px;
+    }
+/*    .top-nav2 .logo{
+	position: absolute;
+	z-index: 9999;
+    }*/
+    /*SLIDER CSS START */
+    .slider-bg-4 {
+	background-position: top;
+	background-size: contain;
+    }
+    .slider-bg-3 {
+	background-position: top;
+	background-size: contain;
+    }
+    .slider-bg-2 {
+	background-position: top;
+	background-size: contain;
+    }
+    .fullslider2 .item {
+	padding-top: 250px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+    }
+    .hero-text .btn {
+	margin-top: 10px;
+    }
+    .fullslider2 .item::after {
+	top: 184px;
+	background-color: #6d2d00;
+    }
+    /*SLIDER CSS END*/
+    /*TOP BAR START*/
+    .top-address {
+	padding: 3px 0;
+    }
+    .top-nav2 .logo {
+	transform: translateY(-18%);
+    }
+    .top-nav2 .logo img {
+	width: 165px;
+    }
+    /*TOP BAR END*/
+    /*MENU CSS START*/
+    .top-nav2 #cssmenu ul li a{
+	text-align: right;
+    }
+    /*MENU CSS END*/
+    /*PRODUCT DETAILS TABLE PADDING*/
+    .table.xtreme-pro-whey-table,.xtreme-endurance-bcaa-table td{
+	padding: .26rem;
+	font-size: 12px;
+    }
+	
+    .xeina-height .vdo-section-flot-right {
+	height: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+    }
+    .vdo-section-flot-right .video-container {
+	height: auto;
+      }
+      .video-container iframe {
+	height: auto;
+      }
+     .vdo-section-flot-right {
+	margin-right: 0px;
+	float: right;
+	margin-left: 40px;
+	margin-bottom: 15px;
+	height: 70%;
+      }
+      .modal-price{
+	width: 31%;
+	float: right;
+	margin-top: 47px;
+	margin-right: 13px;
+      }
+      .xtreme-pro-product-img{
+	width: 41%;
+	margin-left: unset;
+	margin-right: unset;
+      }
+      .mobile-justify-content-center{
+	    ms-flex-pack: center !important;
+	    justify-content: center !important;
+      }
+      .mobile-d-flex{
+	display: -ms-flexbox !important;
+	display: flex !important;
+      }
+      .xtreme-pt-55 {
+	padding-top: 8px;
+      }
+      #xtremeenduranceproductmodal button.close{
+	  margin-top: -600px;
+      }
+      #xtremeproproductmodal button.close {
+	margin-top: -600px;
+      }
+      .xtreme-pro-product-enquiry{
+	 margin-bottom: 1px;
+	border-bottom-right-radius: 13px;
+	border-bottom-left-radius: 13px;
+      }
+	.xtreme-pro-product-enquiry-2 {
+	    margin-bottom: 1px;
+	    border-bottom-right-radius: 13px;
+	    border-bottom-left-radius: 13px;
+	}
+      .modal-price-2 {
+	float: right;
+	margin-top: 47px;
+	margin-right: 13px;
+      }
+    .xtreme-pt-2 {
+	padding-top: 5px;
+    }
+}
+.vdo-section-flot-right {
+  margin-right: 10px;
+  float: right;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  height: 70%;
+}
+.vdo-section-flot-right .video-container {
+  height: 100%;
+}
+.xeina-height {
+  height: auto;
+  padding-bottom: 100px;
+}
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+.xtreme-color-font{
+    color: #fff;
+    font-style: normal;
+}
+.xtreme-color-p{
+    color: #fff;
+}
+.xtreme-its-back {
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 52px;
+  margin-bottom: 40px;
+  margin-top: 0.5em;
+  text-transform: none;
+  color: #ff0404;
+}
+.widget-title-presents-sons {
+  color: #fff;
+  font-style: normal;
+  font-size: 43px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 48px;
+  margin-bottom: 40px;
+  margin-top: 0.5em;
+  text-transform: none;
+}
+.presents-color {
+  font-size: 22px;
+  padding: 21px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.xiena-image-size {
+  width: 350px;
+  padding: 15px;
+}
+.xeina-20-color {
+  font-family: oswald,sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 48px;
+  margin-bottom: 40px;
+  margin-top: 0.5em;
+  text-transform: none;
+  color: #e8da82;
+  font-style: normal;
+}
+.font-18{
+    font-size: 18px;
+}
+
+
+
+
+.xeina-dropdown .dropdown-menu {
+  min-width: 12rem;
+}
+.dropdown-menu.customer {
+  background-color: #6d2d00;
+}
+
+.dropdown-menu.customer.show li.xtreme-front-hi {
+  border-bottom: 1px solid #fff;
+}
+.dropdown-menu.customer.show li {
+  padding-left: 14px;
+  width: 100%;
+  padding: 3px 15px;
+}
+.dropdown-menu.customer.show li.xtreme-front-hi a {
+  font-size: 18px;
+  font-weight: bold;
+}
